@@ -9,10 +9,10 @@ graph = {
     "I": set()
 }
 
-visited = set()  # Set to keep track of visited nodes of graph.
+visited = set()
 
 
-def dfs(visited, graph, node):  # function for dfs
+def dfs(visited, graph, node):
     if node not in visited:
         print(node)
         visited.add(node)
